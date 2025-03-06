@@ -1,9 +1,11 @@
 import "./index.css";
+import NewsList from "./features/news/NewsList";
 
 function App() {
   return (
-    <div className="container">
-      <h1 className="title">Hello, Vanilla CSS!</h1>
+    <div>
+      <h1>AiNews 프로젝트</h1>
+      <NewsList />
     </div>
   );
 }
